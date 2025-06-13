@@ -1,11 +1,43 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "FluentValidation/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FluentValidation/12.0.0": {
+      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "type": "package",
+      "path": "fluentvalidation/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "FluentValidation >= 12.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\eli20\\.nuget\\packages\\": {}
@@ -13,11 +45,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\Infraestructure.csproj",
-      "projectName": "Infraestructure",
-      "projectPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\Core.Domain.csproj",
+      "projectName": "Core.Domain",
+      "projectPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\Core.Domain.csproj",
       "packagesPath": "C:\\Users\\eli20\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\obj\\",
+      "outputPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eli20\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +83,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

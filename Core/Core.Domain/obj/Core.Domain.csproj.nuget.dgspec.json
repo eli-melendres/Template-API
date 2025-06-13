@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\Infraestructure.csproj": {}
+    "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\Core.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\Infraestructure.csproj": {
+    "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\Infraestructure.csproj",
-        "projectName": "Infraestructure",
-        "projectPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\Core.Domain.csproj",
+        "projectName": "Core.Domain",
+        "projectPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\Core.Domain.csproj",
         "packagesPath": "C:\\Users\\eli20\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eli20\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

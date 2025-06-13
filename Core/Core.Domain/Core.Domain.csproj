@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Aggregators\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Core\Core.Domain\Core.Domain.csproj" />
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
   </ItemGroup>
 
 </Project>

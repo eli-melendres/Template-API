@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pVrW11Y57f8=",
+  "dgSpecHash": "zbXqUocPE4A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Layers\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\eli20\\OneDrive\\Documents\\GitHub\\Template-API\\Core\\Core.Domain\\Core.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eli20\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512"
   ],
